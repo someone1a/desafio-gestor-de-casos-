@@ -1,0 +1,1 @@
+22. Gestor de casos misteriosos (Inspirado en Sherlock). Escribe un programa que permita registrar casos indicando titulo, lugar y sospechosos involucrados. Mostrar casos ordenados por nivel de dificultad. Buscar casos por lugar.
