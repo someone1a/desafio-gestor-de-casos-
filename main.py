@@ -35,7 +35,7 @@ while True:
         lugar = input("Ingrese el lugar de los hechos: ").strip()
         sospechosos = input("Ingrese los sospechosos del caso (separados por comas): ").split(",")
 
-        agregar_caso(titulo, descripcion, dificultad, estado, fecha, lugar, sospechosos)
+        agregar_caso(titulo, descripcion, dificultad, estado, fecha, lugar, sospechosos, casos)
         print("___________________________________________________________________________")
         print("El caso", titulo, "con el estado de", estado, "fue creado")
 

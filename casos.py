@@ -26,7 +26,7 @@ def buscar_casos(casos, busqueda):
             print("--------------------------------------------------")
     else:
         print("No se encontraron casos que coincidan con la búsqueda.")
-def agregar_caso(titulo, descripcion, dificultad, estado, fecha, lugar, sospechosos):
+def agregar_caso(titulo, descripcion, dificultad, estado, fecha, lugar, sospechosos, casos):
     if not (1 <= int(dificultad) <= 10):
         print("La dificultad debe estar entre 1 y 10.")
         return
